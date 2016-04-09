@@ -1,4 +1,5 @@
 #WP Preview
+![wp preview](https://raw.githubusercontent.com/stephengreer08/wp-preview/master/screenshot.png)
 
 WP Preview is a simple WordPress theme that allows you to stage flat website designs in a browser for demoing purposes.
 
