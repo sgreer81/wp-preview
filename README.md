@@ -1,3 +1,5 @@
+#WP Preview
+
 WP Preview is a simple WordPress theme that allows you to stage flat website designs in a browser for demoing purposes.
 
 Created by: [Stephen Greer](https://stephengreer.me/)
@@ -13,10 +15,6 @@ Created by: [Stephen Greer](https://stephengreer.me/)
 
 For more installation notes, refer to the [Install gulp and Bower](#install-gulp-and-bower) section in this document.
 
-## Features
-
-* [gulp](http://gulpjs.com/) build script that compiles both Sass and Less, checks for JavaScript errors, optimizes images, and concatenates and minifies files
-
 ## Theme installation
 
 Bottom line is you want to get the files in this repo into your local development environment. There are many ways to do this, two of which we will cover here.
@@ -28,7 +26,7 @@ You need to clone this repo into the theme directory on your WordPress installat
 
 ### via WordPress Admin Panel
 
-1. [Download the latest release](https://github.com/stephengreer08/wp-preview/releases/latest) of Sage.
+1. [Download the latest release](https://github.com/stephengreer08/wp-preview/releases/latest) of WP Preview.
 2. In your WordPress admin panel, navigate to Appearance->Themes
 3. Click Add New
 4. Click Upload Theme
