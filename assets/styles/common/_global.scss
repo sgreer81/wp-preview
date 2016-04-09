@@ -8,3 +8,18 @@
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+.navbar {
+  opacity: 0.3;
+  transition: opacity 300ms;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+body.dark {
+  background-color: #000;
+  .navbar {
+    @extend .navbar-inverse;
+  }
+}

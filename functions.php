@@ -35,17 +35,29 @@ define( 'ACF_LITE', true );
 if(function_exists("register_field_group"))
 {
 	register_field_group(array (
-		'id' => 'acf_page-file',
-		'title' => 'Page File',
+		'id' => 'acf_page-options',
+		'title' => 'Page Options',
 		'fields' => array (
 			array (
-				'key' => 'field_5708784aebfa7',
+				'key' => 'field_570922840974f',
 				'label' => 'Page Image',
 				'name' => 'page_image',
 				'type' => 'image',
 				'save_format' => 'object',
 				'preview_size' => 'thumbnail',
 				'library' => 'all',
+			),
+			array (
+				'key' => 'field_570922af09750',
+				'label' => 'Dark Mode',
+				'name' => 'dark_mode',
+				'type' => 'checkbox',
+				'instructions' => 'Turn on dark mode. This will invert the colors in the navbar.',
+				'choices' => array (
+					'on' => 'On',
+				),
+				'default_value' => '',
+				'layout' => 'vertical',
 			),
 		),
 		'location' => array (
@@ -60,7 +72,7 @@ if(function_exists("register_field_group"))
 			),
 		),
 		'options' => array (
-			'position' => 'acf_after_title',
+			'position' => 'normal',
 			'layout' => 'default',
 			'hide_on_screen' => array (
 				0 => 'the_content',
