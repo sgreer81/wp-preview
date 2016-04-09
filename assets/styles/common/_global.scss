@@ -1,5 +1,20 @@
-.navbar {
-  margin: 0;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  img {
+    transition: opacity 200ms;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
 }
 
 .demo-page {
@@ -10,6 +25,7 @@
 }
 
 .navbar {
+  margin: 0;
   opacity: 0.3;
   transition: opacity 300ms;
   &:hover {
@@ -21,5 +37,13 @@ body.dark {
   background-color: #000;
   .navbar {
     @extend .navbar-inverse;
+  }
+}
+
+body.home {
+  .navbar {
+    @extend .navbar-inverse;
+    margin-bottom: 30px;
+    opacity: 1;
   }
 }

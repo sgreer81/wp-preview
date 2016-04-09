@@ -1,8 +1,3 @@
-<?php while (have_posts()) : the_post(); ?>
-
-  <?php get_template_part('templates/content', 'page'); ?>
-<?php endwhile; ?>
-
 <?php
   $image_id = get_post_meta( get_the_ID(), 'page_image');
   $image = wp_get_attachment_metadata( $image_id[0] );
