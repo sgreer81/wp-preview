@@ -4,6 +4,7 @@
 WP Preview is a simple WordPress theme that allows you to stage flat website designs in a browser for demoing purposes.
 
 Demo: [WP Preview](http://wppreview.stephengreer.me/)
+
 Created by: [Stephen Greer](https://stephengreer.me/)
 
 ## Requirements
